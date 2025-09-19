@@ -6,7 +6,6 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import ExpandingGridTokenomics from '@/components/sections/layouts/tokenomics/ExpandingGridTokenomics';
 import FooterLogo from '@/components/footer/FooterLogo';
-import { LucideIcon } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -63,7 +62,6 @@ export default function Home() {
           logoAlt="Duck Logo"
           logoText="Duck"
           className=""
-          allowsSearch={false}
         />
       </div>
     </SiteThemeProvider>
